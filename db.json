@@ -1,11 +1,40 @@
-{"users": [
-    
-  ],
-  "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+{
+  "cards": [
+      {
+        "card_name":"國泰世華Cube卡",
+        "img": "cathaybk_cube.png",
+        "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube/", 
+        "reward_type":"小樹點",
+        "announcement_period": "2023.07.01 - 2024.06.30",
+        "general_payment": {     
+          "reward": "0.3%",
+          "limit": "",
+          "condition": ""
+        },
+        "special_payment": {     
+          "reward": "3.3%",
+          "store": [             
+              {
+                  "Line Pay": {
+                      "type": "行動支付",
+                      "limit":"",        
+                      "condition": "",    
+                      "announcement_period":""
+                  }
+              },
+              {
+                  "UberEats": {
+                      "type": "美食餐飲",
+                      "limit":"",
+                      "condition":"",
+                      "announcement_period":""
+                  }
+              }
+          ] 
+        },
+        "welcom_bonus": "none", 
+        "annual_fee": "none",  
+        "high_reward_type": ["行動支付", "網購"]  
+      }
+    ]
 }
