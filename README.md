@@ -10,6 +10,8 @@ Render: https://card-advisor-json-server.onrender.com
 - 其他：免費帳號若執行太久，會不定期被重開機
 
 ## API Document
+https://card-advisor-json-server.onrender.com/cards
+
 ```
 {
   "cards": [
