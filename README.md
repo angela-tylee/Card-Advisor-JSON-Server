@@ -1,25 +1,116 @@
 # Getting Started
 
+## Deployment
+
+Render: https://card-advisor-json-server.onrender.com
+
+- 運行限制：每月 750 hrs（單獨帳號計算）
+- 待命期間：閒置 15m 會開始進入休眠
+- 喚醒時間：最久 30s
+- 其他：免費帳號若執行太久，會不定期被重開機
+
+## API Document
+```
+{
+  "cards": [
+      {
+        "card_name":"信用卡名稱 (String)",
+        "img": "信用卡圖片(String)",
+        "url": "信用卡官方公告頁面URL(String)", 
+        "reward_type":"回饋方式(String)",
+        "announcement_period": "信用卡公告時間(String)",
+        "general_payment": {     
+          "reward": "消費回饋％(Number)",
+          "limit": "回饋上限(String)",
+        },
+        "special_payment": {     
+          "reward": "3.3%",
+          "store": [             
+              {
+                  "消費店家(String)": {
+                      "type": "消費類型(String)",
+                      "limit":"回饋上限(String)",        
+                      "condition": "回饋條件任務(String)",    
+                      "announcement_period":"信用卡公告時間(String)"
+                  }
+              },
+              {
+                  "消費店家(String)": {
+                      "type": "消費類型(String)",
+                      "limit":"回饋上限(String)",
+                      "condition":"回饋條件任務(String)",
+                      "announcement_period":"信用卡公告時間(String)"
+                  }
+              }
+          ] 
+        },
+        "welcom_bonus": "新戶禮/首刷禮(String)", 
+        "annual_fee": "年費(String)",  
+        "high_reward_type": ["高回饋類別(Array)“]  
+      }
+    ]
+}
+```
+`general_payment` 一般消費
+`special_payment` 指定通路消費
+
+### Example
+```
+{
+  "cards": [
+      {
+        "card_name":"國泰世華Cube卡",
+        "img": "cathaybk_cube.png",
+        "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube/", 
+        "reward_type":"小樹點",
+        "announcement_period": "2023.07.01 - 2024.06.30",
+        "general_payment": {     
+          "reward": "0.3%",
+          "limit": "",
+          "condition": ""
+        },
+        "special_payment": {     
+          "reward": "3.3%",
+          "store": [             
+              {
+                  "Line Pay": {
+                      "type": "行動支付",
+                      "limit":"",        
+                      "condition": "",    
+                      "announcement_period":""
+                  }
+              },
+              {
+                  "UberEats": {
+                      "type": "美食餐飲",
+                      "limit":"",
+                      "condition":"",
+                      "announcement_period":""
+                  }
+              }
+          ] 
+        },
+        "welcom_bonus": "none", 
+        "annual_fee": "none",  
+        "high_reward_type": ["行動支付", "網購"]  
+      }
+    ]
+}
+```
+
+
 ## Routes
 
-### Plural routes
+`posts`, `comments` are default data. It can be replaced with new data e.g. `cards`
 
 ```
 GET    /posts
-GET    /posts/1
 POST   /posts
-PUT    /posts/1
-PATCH  /posts/1
-DELETE /posts/1
+PUT    /posts
+PATCH  /posts
+DELETE /posts
 ```
 
-### Singular routes
-```
-GET    /profile
-POST   /profile
-PUT    /profile
-PATCH  /profile
-```
 
 ### Filter
 
@@ -116,3 +207,5 @@ GET /
 
 ## Reference
 [JSON Server](https://github.com/typicode/json-server)
+[render](https://render.com/docs/free)
+[render deployment tutorial](https://hackmd.io/@NoName21/deploy-to-render-2022)
