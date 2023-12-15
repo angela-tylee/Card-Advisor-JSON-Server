@@ -1,40 +1,245 @@
 {
   "cards": [
-      {
-        "card_name":"國泰世華Cube卡",
-        "img": "cathaybk_cube.png",
-        "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube/", 
-        "reward_type":"小樹點",
-        "announcement_period": "2023.07.01 - 2024.06.30",
-        "general_payment": {     
-          "reward": "0.3%",
-          "limit": "",
-          "condition": ""
-        },
-        "special_payment": {     
-          "reward": "3.3%",
-          "store": [             
-              {
-                  "Line Pay": {
-                      "type": "行動支付",
-                      "limit":"",        
-                      "condition": "",    
-                      "announcement_period":""
-                  }
-              },
-              {
-                  "UberEats": {
-                      "type": "美食餐飲",
-                      "limit":"",
-                      "condition":"",
-                      "announcement_period":""
-                  }
+    {
+      "card_name": "中國信託 Line Pay 卡",
+      "img": "ctbcbank_linepay.png",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "reward_type": "LINE Points",
+      "announcement_period": "2023/1/1 - 2023/12/31",
+      "general_payment": {
+          "reward": "1%",
+          "limit": "none",
+          "condition": "none"
+      },
+      "special_payment": {
+        "store": [
+          {
+            "海外消費": {
+                "type": "overseas",
+                "reward":"2.8%",
+                "limit": "none",
+                "condition": "",
+                "announcement_period": "2023/1/1 - 2023/12/31"
+            }
+          },
+          {
+              "淘寶": {
+                  "type": "online_shopping",
+                  "reward": "5%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
               }
-          ] 
-        },
-        "welcom_bonus": "none", 
-        "annual_fee": "none",  
-        "high_reward_type": ["行動支付", "網購"]  
-      }
+          },
+          {
+              "momo": {
+                  "type": "online_shopping",
+                  "reward":"6%",
+                  "limit": "",
+                  "condition": "每週四LINE POINTS 6%，以LINE Pay JCB卡別支付(限量需至momo購物網登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Amazon": {
+                  "type": "online_shopping",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Pinkoi": {
+                  "type": "online_shopping",
+                  "reward":"8%",
+                  "limit": "",
+                  "condition": "登錄最高享8%回饋，每週日單筆刷滿NT2,500元享回饋(含基本權益 1% LINE POINTS 回饋 + 7% P Coins 等值回饋)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "誠品線上": {
+                  "type": "online_shopping",
+                  "reward":"5.5%",
+                  "limit": "",
+                  "condition": "限信用卡且透過SHOPBACK專區",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "全國加油站": {
+                  "type": "gas",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "限自助加油",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Goshare": {
+                  "type": "transportation",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Klook": {
+                  "type": "accomodation",
+                  "reward":"15%",
+                  "limit": "",
+                  "condition": "指定日指定類別且輸入代碼",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "kkday": {
+                  "type": "accomodation",
+                  "reward":"4.5%",
+                  "limit": "",
+                  "condition": "限信用卡且透過SHOPBACK專區",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "易遊網": {
+                  "type": "accomodation",
+                  "reward":"3%",
+                  "limit": "",
+                  "condition": "限全球訂房/國內旅遊商品適用",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Hotels.com": {
+                  "type": "accomodation",
+                  "reward":"15%",
+                  "limit": "",
+                  "condition": "限指定網頁且輸入優惠代碼",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "UberEats": {
+                  "type": "food",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "屈臣氏": {
+                  "type": "life_cosmetics",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "單筆滿NT888元，週六享10%回饋，週日~週五享3%回饋，週一中信卡現折100元",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Studio A": {
+                  "type": "life_cosmetics",
+                  "reward":"3%",
+                  "limit": "",
+                  "condition": "全臺指定門市/官網",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Uniqlo": {
+                  "type": "life_cosmetics",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay JCB卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "家樂福": {
+                  "type": "life_cosmetics",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "宜得利": {
+                  "type": "life_cosmetics",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay JCB卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Apple App Store": {
+                  "type": "entertainment",
+                  "reward":"5%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Spotify": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Netflix": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Disney+": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Nintendo eShop": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay JCB卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          },
+          {
+              "Steam": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
+              }
+          }
+        ]
+    },
+    "welcom_bonus": {
+        "reward":"好禮三選一、新卡禮刷卡金 NT100元",
+        "condition":"核卡日起30日內消費滿NT888元送好禮，好禮三選一：LINE FRIENDS 風趣系列旅行組（乙組）、LINE FRIENDS 攜帶式卡式爐（乙組）、刷卡金 NT500元"
+    },
+    "annual_fee": "成功綁定LINE Pay或申請本行電子帳單期間，享終身免年費禮遇",
+    "referral": "推薦人 100 LINE Points、被推薦人 50 LINE Points",
+    "high_reward_type": [
+        "mobile_payment"
     ]
+  }
+  ]
 }
