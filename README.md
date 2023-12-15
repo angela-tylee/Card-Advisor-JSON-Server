@@ -50,9 +50,9 @@ https://card-advisor-json-server.onrender.com/cards
         "welcom_bonus": {
             "reward": "新戶禮/首刷禮(String)",
             "condition": "回饋條件任務(String)"
-        }
+        },
         "annual_fee": "年費(String)",  
-        "high_reward_type": ["高回饋類別(Array)“]  
+        "high_reward_type": ["高回饋類別(Array)"]  
       }
     ]
 }
