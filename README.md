@@ -48,7 +48,7 @@ https://card-advisor-json-server.onrender.com/cards
               }
           ] 
         },
-        "welcom_bonus": {
+        "welcome_bonus": {
             "reward": "新戶禮/首刷禮(String)",
             "condition": "回饋條件任務(String)"
         },
@@ -103,7 +103,7 @@ https://card-advisor-json-server.onrender.com/cards
           }
         ]
     },
-    "welcom_bonus": {
+    "welcome_bonus": {
         "reward":"好禮三選一、新卡禮刷卡金 NT100元",
         "condition":"核卡日起30日內消費滿NT888元送好禮，好禮三選一：LINE FRIENDS 風趣系列旅行組（乙組）、LINE FRIENDS 攜帶式卡式爐（乙組）、刷卡金 NT500元"
     },
