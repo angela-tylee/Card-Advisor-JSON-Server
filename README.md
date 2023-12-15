@@ -17,6 +17,7 @@ https://card-advisor-json-server.onrender.com/cards
   "cards": [
       {
         "card_name":"信用卡名稱 (String)",
+        "bank": "銀行名稱（String)",
         "img": "信用卡圖片(String)",
         "url": "信用卡官方公告頁面URL(String)", 
         "reward_type":"回饋方式(String)",
@@ -66,6 +67,7 @@ https://card-advisor-json-server.onrender.com/cards
   "cards": [
     {
       "card_name": "中國信託 Line Pay 卡",
+      "bank": "中國信託",
       "img": "ctbcbank_linepay.png",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
       "reward_type": "LINE Points",
