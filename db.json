@@ -1,7 +1,7 @@
 {
   "cards": [
-    {
-      "card_name": "中國信託 Line Pay 卡",
+    {"card_name": "中國信託 Line Pay 卡",
+      "bank": "中國信託",
       "img": "ctbcbank_linepay.png",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
       "reward_type": "LINE Points",
@@ -14,7 +14,7 @@
       "special_payment": {
         "store": [
           {
-            "海外消費": {
+            "國外消費": {
                 "type": "overseas",
                 "reward":"2.8%",
                 "limit": "none",
@@ -32,7 +32,7 @@
               }
           },
           {
-              "momo": {
+              "momo購物網": {
                   "type": "online_shopping",
                   "reward":"6%",
                   "limit": "",
@@ -238,8 +238,301 @@
     "annual_fee": "成功綁定LINE Pay或申請本行電子帳單期間，享終身免年費禮遇",
     "referral": "推薦人 100 LINE Points、被推薦人 50 LINE Points",
     "high_reward_type": [
-        "mobile_payment"
+        "行動支付"
     ]
+  },
+  {"card_name":"兆豐 BT21 卡",
+    "bank":"兆豐",
+    "img": "megabank_bt21.png",
+    "url": "https://www.megabank.com.tw/personal/credit-card/card/bt21creditcard", 
+    "reward_type":"現金",
+    "announcement_period": "2023/10/1 - 2024/3/31",
+    "general_payment": {     
+      "reward": "1%",
+      "limit": "none"
+    },
+    "special_payment": {     
+      "store": [             
+          {
+              "國外消費": {
+                  "type": "overseas",
+                  "reward": "2%",
+                  "limit":"none",        
+                  "condition": "",    
+                  "announcement_period":"2023/10/1 - 2024/3/31"
+              }
+          },
+          {
+              "Apple Pay": {
+                  "type": "mobile_payment",
+                  "reward": "3%",
+                  "limit":"NT$200",
+                  "condition":"以宇宙明星BT21信用卡綁定「指定支付」新增一般消費，享加碼2%回饋(每期回饋上限NT$200)，搭配一般消費享3%回饋。(1) 綁定電子帳單(不含行動帳單)且取消紙本 (2) 當期帳單以本行或其他銀行帳戶自動扣繳本行信用卡款成功(需至少扣足最低應繳金額)",
+                  "announcement_period":"2023/10/1 - 2024/3/31"
+              }
+          },
+          {
+            "Google Pay": {
+                "type": "mobile_payment",
+                "reward": "3%",
+                "limit":"NT$200",
+                "condition":"以宇宙明星BT21信用卡綁定「指定支付」新增一般消費，享加碼2%回饋(每期回饋上限NT$200)，搭配一般消費享3%回饋。(1) 綁定電子帳單(不含行動帳單)且取消紙本 (2) 當期帳單以本行或其他銀行帳戶自動扣繳本行信用卡款成功(需至少扣足最低應繳金額)",
+                "announcement_period":"2023/10/1 - 2024/3/31"
+            }
+          },
+          {
+            "LINE Pay": {
+                "type": "mobile_payment",
+                "reward": "3%",
+                "limit":"NT$200",
+                "condition":"以宇宙明星BT21信用卡綁定「指定支付」新增一般消費，享加碼2%回饋(每期回饋上限NT$200)，搭配一般消費享3%回饋。(1) 綁定電子帳單(不含行動帳單)且取消紙本 (2) 當期帳單以本行或其他銀行帳戶自動扣繳本行信用卡款成功(需至少扣足最低應繳金額)",
+                "announcement_period":"2023/10/1 - 2024/3/31"
+            }
+          },
+          {
+            "台灣Pay": {
+                "type": "mobile_payment",
+                "reward": "5%",
+                "limit":"NT$200",
+                "condition":"搭配台灣Pay享最高5%=本活動加碼2%（每期上限NT$200)+一般消費1%無上限+台灣Pay掃碼購物活動加碼2%(月上限NT$100，需登錄)",
+                "announcement_period":"2023/10/1 - 2024/3/31"
+            }
+          },
+          {
+            "yoxi": {
+                "type": "transportation",
+                "reward": "5%",
+                "limit":"NT$200",
+                "condition":"yoxi 新戶優惠：首次下載yoxi APP註冊會員，且綁定宇宙明星BT21信用卡完成首筆乘車刷卡付費不限金額，該新戶享額外專屬搭車金NT$100元 （NT$20搭車金五張），每月限量2,000份。yoxi 新舊戶共享優惠：前一個月於yoxi APP搭車並綁定宇宙明星BT21信用卡付款總計達NT$250，當月最高可享NT$25乘車金券1張，每戶每月最多1 張，每月限量6,500張。",
+                "announcement_period":"2023/1/1 - 2023/12/31"
+            }
+          },
+          {
+            "Agoda": {
+                "type": "accomodation",
+                "reward": "12%",
+                "limit":"",
+                "condition":"Agoda全球飯店(含台灣)立享12%優惠(限量)",
+                "announcement_period":"即日起至2023/12/31"
+            }
+          },
+          {
+            "Booking.com": {
+                "type": "accomodation",
+                "reward": "12%",
+                "limit":"",
+                "condition":"於 Booking.com x Visa 專屬網站訂房且入住，刷宇宙明星BT21信用卡享税前房價最高10%回饋！先訂後付，無需登錄，回饋無上限！(需於116/2/28前完成住宿)",
+                "announcement_period":"即日起至2026/12/31"
+            }
+          },
+          {
+            "Hotels.com": {
+                "type": "accomodation",
+                "reward": "訂房92折",
+                "limit":"",
+                "condition":"凡於活動期間刷宇宙明星BT21信用卡上Hotels.com專屬網頁線上訂房，享92折優惠！(需於113/3/31前完成住宿)",
+                "announcement_period":"即日起至2023/12/31"
+            }
+          }
+      ] 
+    },
+    "welcom_bonus": {
+        "reward": "BT21折疊傘乙支",
+        "condition": "核卡後30日內新增一般消費累積滿NT$2,000且登錄成功，享BT21折疊傘乙支(限量1,300支)"
+    },
+    "annual_fee": "首年免年費，第二年起符合以下任一條件享免年費優惠 (1)申請電子帳單期間享終身免年費(不含紙本及電子帳單併行)(2)前年度不限金額刷卡2次(3)前年度累積消費滿NT$3,000",  
+    "referral": {
+      "reward":"兆豐信用卡正卡持卡人(即推薦人)透過專屬推薦碼成功推薦新戶好友(即被推薦人)申辦BT21信用卡正卡，推薦人及被推薦人符合指定條件，推薦人即可獲得每卡NT$300刷卡金回饋！",
+      "condition":"被推薦人：核卡後30天內使用BT21信用卡累計新增一般消費滿NT$600；推薦人：於被推薦人核卡後30天內使用兆豐信用卡任刷一筆新增一般消費"
+    },
+    "high_reward_type": ["行動支付"]
+  },
+  {
+    "card_name":"滙豐匯鑽卡",
+    "bank":"滙豐",
+    "img": "hsbc_cashback-titanium.png",
+    "url": "https://www.hsbc.com.tw/credit-cards/products/cashback-titanium/", 
+    "reward_type":"現金",
+    "announcement_period": "2023/7/1 - 2023/12/31",
+    "general_payment": {     
+      "reward": "1%",
+      "limit": "none",
+    },
+    "special_payment": {     
+      "store": [             
+        {
+          "momo購物網": {
+              "type": "online_shopping",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Amazon.com": {
+              "type": "online_shopping",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "eBay": {
+              "type": "online_shopping",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "街口支付": {
+              "type": "mobile_payment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Paypal": {
+              "type": "mobile_payment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Agoda": {
+              "type": "accomodation",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Booking.com": {
+              "type": "accomodation",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Uber Eats": {
+              "type": "food",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Disney+": {
+              "type": "entertainment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Netflix": {
+              "type": "entertainment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "YouTube": {
+              "type": "entertainment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Spotify": {
+              "type": "entertainment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+        {
+          "Nintendo eShop": {
+              "type": "entertainment",
+              "reward": "3%",
+              "limit":"NT$2000",        
+              "condition": "",    
+              "announcement_period":"2023/7/1 - 2023/12/31"
+          }
+        },
+      ] 
+    },
+    "welcom_bonus": {
+        "reward": "威秀影城電影票2張",
+        "condition": "線上申辦並刷滿3千，活動期間內申辦滙豐指定信用卡正卡，並於核卡後30天內刷卡消費達以下各卡別門檻條件，即享消費好禮。活動期間內新開立本行帳戶，並完成自動扣繳任務，再享300元回饋"
+    },
+    "annual_fee": "使用電子/行動帳單終身免年費，不分新舊戶均享首年免年費，第二年起符合以下條件享年費優惠辦法：使用非紙本帳單(電子帳單或行動帳單)終身免年費，前一年消費滿 8 萬或 12 次享次年免年費",  
+    "referral": {
+      "reward":"",
+      "condition":""
+    },
+    "high_reward_type": ["無腦神卡"]
+  },
+  {
+    "card_name":"信用卡名稱 (String)",
+    "bank":"銀行名稱 (String)",
+    "img": "信用卡圖片(String)",
+    "url": "信用卡官方公告頁面URL(String)", 
+    "reward_type":"回饋方式(String)",
+    "announcement_period": "信用卡公告時間(String)",
+    "general_payment": {     
+      "reward": "消費回饋％(Number)",
+      "limit": "回饋上限(String)",
+    },
+    "special_payment": {     
+      "store": [             
+          {
+              "消費店家(String)": {
+                  "type": "消費類型(String)",
+                  "reward": "消費回饋％(Number)",
+                  "limit":"回饋上限(String)",        
+                  "condition": "回饋條件任務(String)",    
+                  "announcement_period":"信用卡公告時間(String)"
+              }
+          },
+          {
+              "消費店家(String)": {
+                  "type": "消費類型(String)",
+                  "reward": "消費回饋％(Number)",
+                  "limit":"回饋上限(String)",
+                  "condition":"回饋條件任務(String)",
+                  "announcement_period":"信用卡公告時間(String)"
+              }
+          }
+      ] 
+    },
+    "welcom_bonus": {
+        "reward": "新戶禮/首刷禮(String)",
+        "condition": "回饋條件任務(String)"
+    },
+    "annual_fee": "年費(String)",  
+    "referral": {
+      "reward":"",
+      "condition":""
+    },
+    "high_reward_type": ["高回饋類別(Array)"]
   }
   ]
 }
