@@ -17,6 +17,7 @@ https://card-advisor-json-server.onrender.com/cards
   "cards": [
       {
         "card_name":"信用卡名稱 (String)",
+        "bank": "銀行名稱（String)",
         "img": "信用卡圖片(String)",
         "url": "信用卡官方公告頁面URL(String)", 
         "reward_type":"回饋方式(String)",
@@ -26,11 +27,11 @@ https://card-advisor-json-server.onrender.com/cards
           "limit": "回饋上限(String)",
         },
         "special_payment": {     
-          "reward": "3.3%",
           "store": [             
               {
                   "消費店家(String)": {
                       "type": "消費類型(String)",
+                      "reward": "消費回饋％(Number)",
                       "limit":"回饋上限(String)",        
                       "condition": "回饋條件任務(String)",    
                       "announcement_period":"信用卡公告時間(String)"
@@ -39,6 +40,7 @@ https://card-advisor-json-server.onrender.com/cards
               {
                   "消費店家(String)": {
                       "type": "消費類型(String)",
+                      "reward": "消費回饋％(Number)",
                       "limit":"回饋上限(String)",
                       "condition":"回饋條件任務(String)",
                       "announcement_period":"信用卡公告時間(String)"
@@ -46,9 +48,16 @@ https://card-advisor-json-server.onrender.com/cards
               }
           ] 
         },
-        "welcom_bonus": "新戶禮/首刷禮(String)", 
-        "annual_fee": "年費(String)",  
-        "high_reward_type": ["高回饋類別(Array)“]  
+        "welcom_bonus": {
+            "reward": "新戶禮/首刷禮(String)",
+            "condition": "回饋條件任務(String)"
+        },
+        "annual_fee": "年費(String)",
+        "referral": {
+          "reward":"",
+          "condition":""
+        },
+        "high_reward_type": ["高回饋類別(Array)"]  
       }
     ]
 }
@@ -60,43 +69,51 @@ https://card-advisor-json-server.onrender.com/cards
 ```
 {
   "cards": [
-      {
-        "card_name":"國泰世華Cube卡",
-        "img": "cathaybk_cube.png",
-        "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube/", 
-        "reward_type":"小樹點",
-        "announcement_period": "2023.07.01 - 2024.06.30",
-        "general_payment": {     
-          "reward": "0.3%",
-          "limit": "",
-          "condition": ""
-        },
-        "special_payment": {     
-          "reward": "3.3%",
-          "store": [             
-              {
-                  "Line Pay": {
-                      "type": "行動支付",
-                      "limit":"",        
-                      "condition": "",    
-                      "announcement_period":""
-                  }
-              },
-              {
-                  "UberEats": {
-                      "type": "美食餐飲",
-                      "limit":"",
-                      "condition":"",
-                      "announcement_period":""
-                  }
+    {
+      "card_name": "中國信託 Line Pay 卡",
+      "bank": "中國信託",
+      "img": "ctbcbank_linepay.png",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "reward_type": "LINE Points",
+      "announcement_period": "2023/1/1 - 2023/12/31",
+      "general_payment": {
+          "reward": "1%",
+          "limit": "none",
+          "condition": "none"
+      },
+      "special_payment": {
+        "store": [
+          {
+            "海外消費": {
+                "type": "overseas",
+                "reward":"2.8%",
+                "limit": "none",
+                "condition": "",
+                "announcement_period": "2023/1/1 - 2023/12/31"
+            }
+          },
+          {
+              "Steam": {
+                  "type": "entertainment",
+                  "reward":"10%",
+                  "limit": "",
+                  "condition": "以LINE Pay VISA卡別支付(限量需登錄)",
+                  "announcement_period": "2023/1/1 - 2023/12/31"
               }
-          ] 
-        },
-        "welcom_bonus": "none", 
-        "annual_fee": "none",  
-        "high_reward_type": ["行動支付", "網購"]  
-      }
+          }
+        ]
+    },
+    "welcom_bonus": {
+        "reward":"好禮三選一、新卡禮刷卡金 NT100元",
+        "condition":"核卡日起30日內消費滿NT888元送好禮，好禮三選一：LINE FRIENDS 風趣系列旅行組（乙組）、LINE FRIENDS 攜帶式卡式爐（乙組）、刷卡金 NT500元"
+    },
+    "annual_fee": "成功綁定LINE Pay或申請本行電子帳單期間，享終身免年費禮遇",
+    "referral": "推薦人 100 LINE Points、被推薦人 50 LINE Points",
+    "high_reward_type": [
+        "mobile_payment"
     ]
+  }
+  ]
 }
 ```
 
