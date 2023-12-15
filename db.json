@@ -356,7 +356,7 @@
     "announcement_period": "2023/7/1 - 2023/12/31",
     "general_payment": {     
       "reward": "1%",
-      "limit": "none",
+      "limit": "none"
     },
     "special_payment": {     
       "store": [             
@@ -476,7 +476,7 @@
               "condition": "",    
               "announcement_period":"2023/7/1 - 2023/12/31"
           }
-        },
+        }
       ] 
     },
     "welcom_bonus": {
@@ -499,7 +499,7 @@
     "announcement_period": "信用卡公告時間(String)",
     "general_payment": {     
       "reward": "消費回饋％(Number)",
-      "limit": "回饋上限(String)",
+      "limit": "回饋上限(String)"
     },
     "special_payment": {     
       "store": [             
